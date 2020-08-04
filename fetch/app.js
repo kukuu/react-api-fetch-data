@@ -2,8 +2,8 @@ import React from 'react';
 
 export default class FetchRandomUser extends Component {
     state = {
-        loading: true,
-        person: null
+        person: null,
+        loading: true
     }
 
     async componentDidMount(){
